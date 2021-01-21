@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88afc6a0-5be3-459b-adbd-aa64afbc31dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/segmentation/machine-learning/bigram.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AI-NLP-Tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AI-NLP-Tutorial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segmentation/.ipynb_checkpoints/dictionary-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/.ipynb_checkpoints/dictionary-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segmentation/.ipynb_checkpoints/machine-learning-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/.ipynb_checkpoints/machine-learning-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segmentation/dictionary.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/dictionary/maximum-matching.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segmentation/imgs/dijkstra.png" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/machine-learning/imgs/dijkstra.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segmentation/imgs/trie.png" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/dictionary/imgs/trie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segmentation/machine-learning.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/hmm/hmm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/hmm/hmm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/machine-learning/hmm_seg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/machine-learning/hmm_seg.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/segmentation/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -163,8 +153,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/segmentation/test.py</url>
-          <line>101</line>
-          <option name="timeStamp" value="7" />
+          <line>192</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/segmentation/test.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/segmentation/test.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/segmentation/test.py</url>
+          <line>173</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

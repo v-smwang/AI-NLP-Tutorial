@@ -156,7 +156,7 @@ def viterbi(sentence, tag_list):
     V = [{}]  # tabular
     path = {}
     backpointers = []
-    for y in tag_list:  # init
+    for y in tag_list:  # init 计算第一个字的为某个状态的概率
         V[0][y] = Start[y] * (Emit[y].get(sentence[0], 0.00000001))
         path[y] = y
     backpointers.append(path)
@@ -164,10 +164,11 @@ def viterbi(sentence, tag_list):
         V.append({})
         newpath = {}
         path = {}
-        for y in tag_list:
+        for y in tag_list:  # 一个句子有len(sentence)层0，1，2，3。我们找每一层的最大路径，因为每一层里的0，1，2，3都能到达。
             (prob, state) = max(
                 [(V[t - 1][y0] * Trans[y0].get(y, 0.00000001) * Emit[y].get(sentence[t], 0.00000001), y0) for y0 in
-                 tag_list])
+                 tag_list])  # 由上一个隐状态（V[t - 1][y0]）转移为下一个隐状态（Trans[y0].get(y, 0.00000001)）的概率，
+            # 当下一个状态为y时，上一个为0，1，2，3哪一个隐状态概率最大【也就是在寻找哪个路径概率最大】。
             V[t][y] = prob
             path[y] = state
         backpointers.append(path)

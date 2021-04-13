@@ -7,9 +7,10 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-.ipynb_checkpoints
-.idea
-.Python
+test/
+.ipynb_checkpoints/
+.idea/
+.Python/
 build/
 develop-eggs/
 dist/
